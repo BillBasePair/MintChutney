@@ -39,6 +39,15 @@ from scipy.cluster.hierarchy import linkage, dendrogram
 import warnings
 warnings.filterwarnings('ignore')
 
+# Simple password check (replace 'YourKnownPassword' with your actual password)
+PASSWORD = "IceNine9&"
+password = st.text_input("Enter password (same as BasePair wifi password):", type="password")
+
+if password != PASSWORD:
+    st.warning("Incorrect password. Please try again.")
+    st.stop()
+
+
 # Set page config
 st.set_page_config(page_title="MintChutney SELEX Analysis", layout="wide")
 
