@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+biopython
+python-Levenshtein
+scipy
+requests
+beautifulsoup4
+pillow
+viennarna
